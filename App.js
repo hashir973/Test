@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      {!isSplashVisible ? (
+      {isSplashVisible ? (
         <SplashScreenPage />
       ) : (
         <AuthNavigation />
